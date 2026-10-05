@@ -1,0 +1,211 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "DESKTOP-O87Q90M",
+			"instance": "1A8C0D0540DF3CCA6EF972A91687FAA6",
+			"instanceName": "DESKTOP-O87Q90M-29956",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (25H2) [10.0.26200.9457] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 5070 Ti",
+			"cPUModel": "13th Gen Intel(R) Core(TM) i9-13900F",
+			"rAMInGB": 64,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.10.05-18.38.35",
+	"succeeded": 7,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 19.029804229736328,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "AssetsAndConfig",
+			"fullTestPath": "FPVGame.Content.AssetsAndConfig",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1A8C0D0540DF3CCA6EF972A91687FAA6"
+			],
+			"duration": 0.24665689468383789,
+			"dateTime": "2026.10.05-18.38.16",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Materials",
+			"fullTestPath": "FPVGame.Content.Materials",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1A8C0D0540DF3CCA6EF972A91687FAA6"
+			],
+			"duration": 0.0080665983259677887,
+			"dateTime": "2026.10.05-18.38.16",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MathAndDefaults",
+			"fullTestPath": "FPVGame.Flight.MathAndDefaults",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1A8C0D0540DF3CCA6EF972A91687FAA6"
+			],
+			"duration": 0.0079860016703605652,
+			"dateTime": "2026.10.05-18.38.16",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Default drone: thrust/weight 7.06, hover throttle 23.3%, max rate 667 deg/s, sim 500 Hz",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.05-18.38.16"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CrashAndFail",
+			"fullTestPath": "FPVGame.Gameplay.CrashAndFail",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1A8C0D0540DF3CCA6EF972A91687FAA6"
+			],
+			"duration": 1.1268868446350098,
+			"dateTime": "2026.10.05-18.38.16",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Restarting with the controller's Options / Start button",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.05-18.38.17"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FlightAndInput",
+			"fullTestPath": "FPVGame.Gameplay.FlightAndInput",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1A8C0D0540DF3CCA6EF972A91687FAA6"
+			],
+			"duration": 13.0814208984375,
+			"dateTime": "2026.10.05-18.38.17",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Thrust/weight 7.06, hover throttle 23%",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.05-18.38.18"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MissionLoop",
+			"fullTestPath": "FPVGame.Gameplay.MissionLoop",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1A8C0D0540DF3CCA6EF972A91687FAA6"
+			],
+			"duration": 4.5503692626953125,
+			"dateTime": "2026.10.05-18.38.30",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Restarting with the RESTART MISSION button",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.05-18.38.32"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Restarting with the R key",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.05-18.38.34"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Screenshots",
+			"fullTestPath": "FPVGame.Visual.Screenshots",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1A8C0D0540DF3CCA6EF972A91687FAA6"
+			],
+			"duration": 0.0084187015891075134,
+			"dateTime": "2026.10.05-18.38.35",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Skipped: rendering is disabled (-NullRHI). Run Scripts/CaptureScreenshots.bat for the visual check.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.10.05-18.38.35"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}
